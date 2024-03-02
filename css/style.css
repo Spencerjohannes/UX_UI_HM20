@@ -1,3 +1,54 @@
-p{
-background-color:aqua;
+h1{
+    font-size: 48px;
 }
+
+h2{
+    font-size: 30px ;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+p{
+    font-size: 18px;
+}
+
+span{
+    color: #1C4B91;
+    font: bold;
+}
+
+.card{
+    border: none;
+}
+.navbar-brand{
+    height: 60px;
+}
+
+
+
+
+#introduction {
+    background-color: #1E3566;
+    color: white;
+    text-align: center;
+}
+
+.introductionTitle{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.desktop{
+    width: 100%;
+}
+
+.mobile{
+    width: 100%;
+}
+
