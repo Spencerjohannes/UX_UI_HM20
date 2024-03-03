@@ -1,54 +1,239 @@
-h1{
+/*basic design layout style*/
+h1 {
     font-size: 48px;
 }
 
-h2{
-    font-size: 30px ;
+h2 {
+    font-size: 30px;
+    font-weight: bold;
 }
 
-h3{
+h3 {
     font-size: 20px;
+    font-weight: bold;
 }
 
-h4{
+h4 {
     font-size: 18px;
 }
 
-p{
+p {
     font-size: 18px;
 }
 
-span{
+.title {
+    color: #1C4B91;
+}
+
+span {
     color: #1C4B91;
     font: bold;
 }
 
-.card{
+.card {
     border: none;
 }
-.navbar-brand{
+
+.containerPadding {
+    padding-bottom: 60px;
+}
+
+.navbar-brand {
     height: 60px;
 }
 
+/*Navbar figureout later*/
 
 
 
+/*Case Study introduction Title*/
 #introduction {
     background-color: #1E3566;
     color: white;
     text-align: center;
 }
 
-.introductionTitle{
+.introductionTitle {
     padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
-.desktop{
+.mobile {
+    padding-top: 7.25%;
+}
+
+.desktop {
     width: 100%;
 }
 
-.mobile{
+.mobile {
     width: 100%;
 }
 
+/*Case Study introduction information & Briefing*/
+
+.name {
+    padding-top: 50px;
+}
+
+.breifingTitle {
+    color: #1E3566;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.description {
+    padding-bottom: 50px;
+}
+
+.oldWebsite {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.problemStatement {
+    padding-top: 50px;
+}
+
+/*Goals*/
+.goals {
+    text-align: right;
+}
+
+.goalTitle {
+    padding-bottom: 25px;
+}
+
+/*Research & Analysis*/
+.analysisDescription {
+
+    padding: 40px;
+}
+
+.researchRow {
+    text-align: center;
+}
+
+.researchTopic {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.analysis {
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.analyticsImage {
+    padding: 8px
+}
+
+.imageDescription {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.analyticsInformation {
+    padding: 16%;
+}
+
+/*Redline & Annotate & Journey Map*/
+.titleDescription {
+    padding-bottom: 40px;
+}
+
+.imageDetail {
+    padding: 15% 2% 2% 2%;
+}
+
+/*Card Sorting*/
+.cardSortingImage1 {
+    width: 35vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cardSortingImage2 {
+    width: 85vh;
+}
+
+.cardSortingDescription {
+    padding-top: 15px;
+}
+
+/*Site Map*/
+
+.siteMapImage {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.SiteMapImageDescription {
+    padding: 20px 15% 0% 15%
+}
+
+/*Concepts, Sketching and Wireframes*/
+
+.sketchIdea {
+    text-align: center;
+}
+
+.imageTextAbove {
+    padding-bottom: 15px;
+}
+
+
+/*Footer Redesign*/
+.footercontainer {
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.footerTitle {
+    text-align: center;
+}
+
+.footerCard {
+    padding-top: 25px;
+    background-color: transparent;
+}
+
+.footerImage {
+    width: 95%;
+    padding-top: 25px;
+}
+
+.footerdescription {
+    padding-top: 7%;
+}
+
+/*testing*/
+
+.testingTitle {
+    padding-top: 50px;
+}
+
+.testingDescription {
+    padding-top: 25px;
+}
+
+/*navigation*/
+
+.navTitle{
+    text-align: center;
+}
+.navStep{
+    padding-top: 32%;
+}
+
+.imageNavStep{
+    padding-top: 35px;
+}
+
+.navDescription{
+    padding-top: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
