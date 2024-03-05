@@ -53,6 +53,19 @@ span {
 /*Navbar figureout later*/
 
 
+.navbarLink {
+    padding: 25px 20px 20px 20px !important;
+}
+
+.navLinks{
+    margin: 0px auto;
+}
+
+.navbar-brand {
+    padding: 10px 0px 10px 20px;
+    height: 90px;
+}
+
 
 /*Case Study introduction Title*/
 #introduction {
@@ -339,15 +352,15 @@ span {
 
 /*Challenges & Conclusion*/
 
-.conclusion{
+.conclusion {
     padding: 25px 0px 25px 0px
 }
 
-.textbox{
+.textbox {
     margin-right: 15px;
     padding-bottom: 40px;
 }
 
-.bottomPage{
+.bottomPage {
     padding-bottom: 150px;
 }
